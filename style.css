@@ -1,0 +1,113 @@
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+body, header, main, footer {
+    margin: 0;
+    padding: 0;
+}
+
+.social-VK{
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    left: 80px;
+    top: 13px;
+    margin-top: 0%;
+    
+}
+
+.social-Git{
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    left: 120px;
+    top: 12px;
+    margin-top: 0%;
+    
+
+}
+
+.social-Telegram{
+    position: absolute;
+width: 32px;
+height: 32px;
+left: 160px;
+top: 13px;
+margin-top: 0%;
+
+}
+
+.MyName{
+    position: absolute;
+    top: 13px;
+    font-size: 30px;
+    margin-top: 0%;
+    left: 1300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.header-bg{
+    position: absolute;
+width: 1920px;
+height: 55px;
+left: calc(50% - 1920px/2);
+top: 0px;
+
+background: rgba(203, 81, 81, 0.95);
+border: 1px solid #000000;
+z-index: -1;
+}
+
+.bg{
+    background-color: rgba(203, 81, 81, 0.95);
+}
+
+.main_page{
+    
+    border-radius: 25px;
+    width: 440px;
+    height: 300px;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 12%;
+    background: rgba(203, 81, 81, 0.65);
+    z-index: -4;
+}
+
+.main_text{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 11%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
