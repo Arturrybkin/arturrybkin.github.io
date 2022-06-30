@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Rubik:wght@300&display=swap');
 *,*:before,*:after{
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -18,6 +19,23 @@ html,body{
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
+
+html{
+    height: 100%;
+    overflow: hidden;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+
 input,button,textarea{font-family: inherit;}
 
 input::-ms-clear{display: none;}
@@ -36,7 +54,7 @@ body, header, main, footer {
 }
 
 .social-VK{
-    position: absolute;
+    position: fixed;
     width: 29px;
     height: 29px;
     left: 80px;
@@ -46,7 +64,7 @@ body, header, main, footer {
 }
 
 .social-Git{
-    position: absolute;
+    position: fixed;
     width: 29px;
     height: 29px;
     left: 120px;
@@ -57,7 +75,7 @@ body, header, main, footer {
 }
 
 .social-Telegram{
-    position: absolute;
+    position: fixed;
 width: 32px;
 height: 32px;
 left: 160px;
@@ -67,47 +85,248 @@ margin-top: 0%;
 }
 
 .MyName{
-    position: absolute;
-    top: 13px;
-    font-size: 30px;
+    position: fixed;
+    top: 16px;
+    font-size: 20px;
     margin-top: 0%;
-    left: 1300px;
-    font-family: Arial, Helvetica, sans-serif;
+    left: 1380px;
+    font-family: 'Rubik', sans-serif;
     font-weight: bold;
+    color: #000000;
+}
+
+.number{
+    position:fixed;
+    left: 1640px;
+    font-family: 'Rubik', sans-serif;
 }
 
 .header-bg{
-    position: absolute;
-width: 1920px;
+    position: fixed;
+min-width: 100%;
+max-width: none;
 height: 55px;
-left: calc(50% - 1920px/2);
-top: 0px;
+left: 0%;
+top: -2px;
 
-background: rgba(203, 81, 81, 0.95);
-border: 1px solid #000000;
+background: rgb(170, 77, 77);
+
+border-radius: 1px;
 z-index: -1;
 }
 
-.bg{
-    background-color: rgba(203, 81, 81, 0.95);
+.hello{
+    position: absolute;
+width: 600px;
+height: 144px;
+left: 1029px;
+top: 516px;
+
+font-family: 'League Gothic', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 75px;
+text-align: center;
+
+color: #AF4B4B;
 }
 
-.main_page{
-    
-    border-radius: 25px;
-    width: 440px;
-    height: 300px;
+.devoloper{
     position: absolute;
-    margin-top: 15%;
-    margin-left: 12%;
-    background: rgba(203, 81, 81, 0.65);
-    z-index: -4;
+width: 270px;
+height: 72px;
+left: 1194px;
+top: 600px;
+
+font-family: 'League Gothic', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+text-align: center;
+
+color: #606060;
 }
 
-.main_text{
+.button{
     position: absolute;
-    margin-top: 15%;
-    margin-left: 11%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+width: 270px;
+height: 104px;
+left: 1194px;
+top: 769px;
+
+background: #DDDF79;
+mix-blend-mode: normal;
+border-radius: 25px;
+}
+
+.button_text{
+    position: absolute;
+width: 110px;
+height: 31px;
+left: 1274px;
+top: 805px;
+
+font-family: 'League Gothic', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+margin-top: 15px;
+
+color: #C1611B;
+}
+
+.webjpg{
+    position: absolute;
+width: 635px;
+height: 852px;
+left: 245px;
+top: 304px;
+border-radius: 25px;
+background-image: url(img/WebDev.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.copyright-bg{
+    position: fixed;
+min-width: 100%;
+max-width: none;
+width: 1920px;
+height: 55px;
+left: 0px;
+top: 4970px;
+
+background: #080808d0;
+}
+
+.copyright_text{
+    position: absolute;
+width: 455px;
+height: 28px;
+left: 733px;
+top: 4959px;
+
+font-family: 'Kanit';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.contacts-bg{
+    position: absolute;
+width: 1920px;
+height: 550px;
+left: -18px;
+top: 4406px;
+
+background: #d6d69f;
+z-index: -1;
+}
+
+.tel-bg{
+    position: absolute;
+width: 385px;
+height: 135px;
+left: 565px;
+top: 4572px;
+
+background: rgba(221, 87, 87, 0.7);
+}
+
+.tel{
+    position: absolute;
+width: 383px;
+height: 90px;
+left: 567px;
+top: 4633px;
+margin-top: 0%;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 45px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.email-bg{
+    position: absolute;
+width: 415px;
+height: 135px;
+left: 970px;
+top: 4572px;
+
+background: rgba(221, 87, 87, 0.7);
+}
+
+.email{
+    position: absolute;
+width: 415px;
+height: 134px;
+left: 970px;
+top: 4630px;
+margin-top: 0%;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 45px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.adress-bg{
+    position: absolute;
+width: 385px;
+height: 135px;
+left: 768px;
+top: 4758px;
+
+background: rgba(221, 87, 87, 0.7);
+}
+
+.adress{
+    position: absolute;
+width: 387px;
+height: 133px;
+left: 769px;
+top: 4790px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.D{
+    top: 4790px; 
+    width: 387px;
+height: 133px;     
+}
+
+
+body{
+    background-color: #DADADA;
+    z-index: -10000;
 }
