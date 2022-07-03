@@ -23,6 +23,7 @@ html,body{
 html{
     height: 100%;
     overflow: hidden;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -159,6 +160,36 @@ top: 769px;
 background: #DDDF79;
 mix-blend-mode: normal;
 border-radius: 25px;
+transition: .5s;
+}
+
+.warp:hover .button{
+    -webkit-transform: scale(1.5);
+-ms-ransform: scale(1.5);
+transform: scale(1.5);
+}
+
+.warp:hover .button_text{
+    -webkit-transform: scale(4);
+-ms-ransform: scale(4);
+transform: scale(3);
+}
+
+.container{display: inline-block;}
+
+scroll-container{
+    display: block;
+  width: 350px;
+  height: 200px;
+  scroll-behavior: smooth;
+}
+
+.scroll{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 5em;
 }
 
 .button_text{
@@ -167,6 +198,7 @@ width: 110px;
 height: 31px;
 left: 1274px;
 top: 805px;
+transition: 1s;
 
 font-family: 'League Gothic', sans-serif;
 font-style: normal;
@@ -306,7 +338,7 @@ background: rgba(221, 87, 87, 0.7);
 width: 387px;
 height: 133px;
 left: 769px;
-top: 4790px;
+top: 4800px;
 
 font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
@@ -317,12 +349,6 @@ text-align: center;
 
 color: #FFFFFF;
 
-}
-
-.D{
-    top: 4790px; 
-    width: 387px;
-height: 133px;     
 }
 
 
