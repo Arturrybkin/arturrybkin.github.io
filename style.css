@@ -308,7 +308,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 37px;
 line-height: 38px;
-transition: 1s;
+transition: 0.4s;
 
 display: flex;
 align-items: center;
@@ -334,7 +334,7 @@ font-weight: 400;
 font-size: 37px;
 line-height: 38px;
 visibility: visible;
-transition: 1s;
+transition: 0.4s;
 
 display: flex;
 align-items: center;
@@ -365,7 +365,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 37px;
 line-height: 38px;
-transition: 1s;
+transition: 0.4s;
 
 
 display: flex;
@@ -395,7 +395,7 @@ font-weight: 400;
 font-size: 37px;
 line-height: 38px;
 visibility: hidden;
-transition: 1s;
+transition: 0.4s;
 
 display: flex;
 align-items: center;
@@ -420,7 +420,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 37px;
 line-height: 38px;
-transition: 1s;
+transition: 0.4s;
 
 display: flex;
 align-items: center;
@@ -447,7 +447,7 @@ font-weight: 400;
 font-size: 37px;
 line-height: 38px;
 visibility: hidden;
-transition: 1s;
+transition: 0.4s;
 
 display: flex;
 align-items: center;
