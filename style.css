@@ -61,8 +61,15 @@ body, header, main, footer {
     left: 80px;
     top: 13px;
     margin-top: 0%;
+    background-image: url(img/iconVKdark.svg);
+    transition: 0.1s;
     
 }
+
+.warp_vk:hover .social-VK{
+    top: 10px;
+}
+
 
 .social-Git{
     position: fixed;
@@ -71,8 +78,12 @@ body, header, main, footer {
     left: 120px;
     top: 12px;
     margin-top: 0%;
-    
+    background-image: url(img/iconGitHub.svg);
+    transition: 0.1s;
+}
 
+.warp_git:hover .social-Git{
+    top: 10px;
 }
 
 .social-Telegram{
@@ -82,7 +93,12 @@ height: 32px;
 left: 160px;
 top: 13px;
 margin-top: 0%;
+background-image: url(img/iconTg.svg);
+transition: 0.1s;
+}
 
+.warp_tg:hover .social-Telegram{
+    top: 10px;
 }
 
 .MyName{
@@ -164,15 +180,21 @@ transition: .5s;
 }
 
 .warp:hover .button{
-    -webkit-transform: scale(1.5);
--ms-ransform: scale(1.5);
-transform: scale(1.5);
+    -webkit-transform: scale(1.2);
+-ms-ransform: scale(1.2);
+transform: scale(1.2);
+background: none;
+border: #DDDF79 solid 4px;
+background: #fbff0a4f;
+border-radius: 50px;
+
 }
 
 .warp:hover .button_text{
     -webkit-transform: scale(4);
 -ms-ransform: scale(4);
-transform: scale(3);
+transform: scale(1.5);
+color:rgb(255, 115, 0);
 }
 
 .container{display: inline-block;}
@@ -198,7 +220,7 @@ width: 110px;
 height: 31px;
 left: 1274px;
 top: 805px;
-transition: 1s;
+transition: 0.7s;
 
 font-family: 'League Gothic', sans-serif;
 font-style: normal;
@@ -221,11 +243,191 @@ border-radius: 25px;
 background-image: url(img/WebDev.jpg);
 background-repeat: no-repeat;
 background-position: center center;
-background-attachment: fixed;
+background-attachment: scroll;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
+}
+
+.works_text{
+    position: absolute;
+width: 1920px;
+height: 57px;
+left: 700px;
+top: 1729px;
+
+font-family: 'League Gothic', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #AF4B4B;
+
+}
+
+.works-bg{
+    position: absolute;
+width: 850px;
+height: 431px;
+left: 245px;
+top: 1908px;
+
+background: #F7CCA4;
+mix-blend-mode: normal;
+border-radius: 40px;
+}
+
+.wt{
+    position: absolute;
+width: 596px;
+height: 149px;
+left: 374px;
+top: 2037px;
+
+font-family: 'Rubik', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 48px;
+
+color: rgba(0, 0, 0, 0.45);
+}
+
+.gif{
+    position: absolute;
+width: 506px;
+height: 306px;
+left: 1223px;
+top: 1959px;
+
+background-image: url(img/develpoment.gif);
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: scroll;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+}
+
+.education_text{
+    position: absolute;
+width: 1920px;
+height: 74px;
+left: 600px;
+top: 3153px;
+
+font-family: 'League Gothic', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #AF4B4B;
+}
+
+.school{
+    position: absolute;
+width: 521px;
+height: 338px;
+left: 331px;
+top: 3345px;
+
+background: #F7CCA4;
+border-radius: 20px;
+transition: .5s;
+}
+
+.warp_school:hover .school{
+    background-image: url(img/XXXL.webp);
+    -webkit-transform: scale(1.2);
+-ms-ransform: scale(1.2);
+transform: scale(1.2);
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: scroll;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+transition: 0.5s;
+border-radius: 0%;
+}
+
+.school_text{
+    position: absolute;
+width: 110px;
+height: 93px;
+left: 530px;
+top: 3470px;
+
+font-family: 'League Gothic', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+transition: 0.5s;
+
+color: #AF4B4B;
+
+}
+
+.warp_school:hover .school_text{
+    top: 3700px;
+    
+}
+
+.institute{
+    position: absolute;
+width: 521px;
+height: 338px;
+left: 1069px;
+top: 3345px;
+transition: 0.5s;
+
+background: #F7CCA4;
+border-radius: 20px;
+}
+
+.warp_institute:hover .institute{
+    background-image: url(img/0b9e109feaf25797034616d6c3ad5e2f.jpg);
+    -webkit-transform: scale(1.2);
+-ms-ransform: scale(1.2);
+transform: scale(1.2);
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: scroll;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+transition: 0.5s;
+border-radius: 0%;
+
+}
+
+.institute_text{
+    position: absolute;
+width: 129px;
+height: 45px;
+left: 1270px;
+top: 3470px;
+
+font-family: 'League Gothic', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+transition: 0.5s;
+
+color: #AF4B4B;
+}
+
+.warp_institute:hover .institute_text{
+    top: 3700px;
 }
 
 .copyright-bg{
@@ -274,14 +476,24 @@ width: 385px;
 height: 135px;
 left: 565px;
 top: 4572px;
+transition: 0.5s;
 
 background: rgba(221, 87, 87, 0.7);
+}
+
+.warp_contacts:hover .tel-bg{
+    border-radius: 20px;
+    width: 365px;
+height: 120px;
+left: 580px;
+top: 4580px;
+background: #ebb653;
 }
 
 .tel{
     position: absolute;
 width: 383px;
-height: 90px;
+height: 3px;
 left: 567px;
 top: 4633px;
 margin-top: 0%;
@@ -293,16 +505,35 @@ font-size: 30px;
 line-height: 45px;
 text-align: center;
 color: #FFFFFF;
+transition: 0.5s;
+}
+
+.warp_contacts:hover .tel{
+    color: #AF4B4B;
 }
 
 .email-bg{
     position: absolute;
-width: 415px;
+width: 385px;
 height: 135px;
 left: 970px;
 top: 4572px;
+transition: 0.5s;
 
 background: rgba(221, 87, 87, 0.7);
+}
+
+.warp_email:hover .email-bg{
+    border-radius: 20px;
+    width: 365px;
+height: 120px;
+left: 985px;
+top: 4580px;
+background: #ebb653;
+}
+
+.warp_email:hover .email{
+    color: #AF4B4B;
 }
 
 .email{
@@ -319,6 +550,7 @@ font-weight: 400;
 font-size: 30px;
 line-height: 45px;
 text-align: center;
+transition: 0.5s;
 
 color: #FFFFFF;
 }
@@ -329,8 +561,19 @@ width: 385px;
 height: 135px;
 left: 768px;
 top: 4758px;
+transition: 0.5s;
 
 background: rgba(221, 87, 87, 0.7);
+}
+
+.warp_adress:hover .adress-bg{
+    position: absolute;
+width: 365px;
+height: 120px;
+left: 783px;
+top: 4760px;
+background: #ebb653;
+border-radius: 20px;
 }
 
 .adress{
@@ -339,6 +582,7 @@ width: 387px;
 height: 133px;
 left: 769px;
 top: 4800px;
+transition: 0.5s;
 
 font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
@@ -349,6 +593,10 @@ text-align: center;
 
 color: #FFFFFF;
 
+}
+
+.warp_adress:hover .adress{
+    color: #AF4B4B;
 }
 
 
